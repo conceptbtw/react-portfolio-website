@@ -5,7 +5,7 @@ type ProjectListProps = {
 };
 
 const ProjectList = ({ children }: ProjectListProps) => {
-  return <ul className="flex flex-col gap-1">{children}</ul>;
+  return <ul className="flex flex-col gap-2">{children}</ul>;
 };
 
 export default ProjectList;

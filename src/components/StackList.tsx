@@ -5,7 +5,11 @@ type StackListProps = {
 };
 
 const StackList = ({ children }: StackListProps) => {
-  return <ul className="flex justify-center items-center gap-1">{children}</ul>;
+  return (
+    <ul className="flex flex-wrap justify-center items-center gap-2">
+      {children}
+    </ul>
+  );
 };
 
 export default StackList;

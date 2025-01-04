@@ -3,13 +3,13 @@ import NavItem from "./NavItem";
 
 const Header = () => {
   return (
-    <header className="">
+    <header className="p-4">
       <NavList>
-        <NavItem link="" section="About" />
-        <NavItem link="" section="Skills" />
-        <NavItem link="" section="Portfolio" />
-        <NavItem link="" section="Experience" />
-        <NavItem link="" section="Contacts" />
+        <NavItem link="#about" section="About" />
+        <NavItem link="#skills" section="Skills" />
+        <NavItem link="#portfolio" section="Portfolio" />
+        <NavItem link="#experience" section="Experience" />
+        <NavItem link="#contacts" section="Contacts" />
       </NavList>
     </header>
   );

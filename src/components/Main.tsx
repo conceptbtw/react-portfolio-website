@@ -1,8 +1,8 @@
-import About from "./About";
-import Skills from "./Skills";
-import Portfolio from "./Portfolio";
-import Experience from "./Experience";
-import Contacts from "./Contacts";
+import About from "./about/About";
+import Skills from "./skills/Skills";
+import Portfolio from "./portfolio/Portfolio";
+import Experience from "./experience/Experience";
+import Contacts from "./contacts/Contacts";
 
 const Main = () => {
   return (

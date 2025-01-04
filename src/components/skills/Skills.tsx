@@ -4,10 +4,12 @@ import SkillItem from "./SkillItem";
 const Skills = () => {
   return (
     <section className="flex flex-col justify-center items-center">
-      <h1 className="">Skills</h1>
-      <div className="grid grid-cols-2">
+      <h1 className="p-4 text-3xl" id="skills">
+        Skills
+      </h1>
+      <div className="w-full grid grid-cols-2 gap-2">
         <section className="flex flex-col items-center">
-          <h2 className="">Hard skills</h2>
+          <h2 className="p-2 text-2xl">Hard skills</h2>
           <SkillList>
             <SkillItem
               img="https://skillicons.dev/icons?i=html"
@@ -50,7 +52,7 @@ const Skills = () => {
           </SkillList>
         </section>
         <section className="flex flex-col items-center">
-          <h2 className="">Soft skills</h2>
+          <h2 className="p-2 text-2xl">Soft skills</h2>
           <SkillList>
             <SkillItem
               img="https://em-content.zobj.net/source/microsoft-teams/363/handshake_1f91d.png"
@@ -59,6 +61,10 @@ const Skills = () => {
             <SkillItem
               img="https://em-content.zobj.net/source/microsoft-teams/363/stopwatch_23f1-fe0f.png"
               skill="Time management"
+            />
+            <SkillItem
+              img="https://em-content.zobj.net/source/microsoft-teams/363/artist-palette_1f3a8.png"
+              skill="Creativity"
             />
           </SkillList>
         </section>

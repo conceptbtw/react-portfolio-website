@@ -6,7 +6,7 @@ type NavItemProps = {
 const NavItem = ({ link, section }: NavItemProps) => {
   return (
     <li className="">
-      <a className="" href={link}>
+      <a className="text-2xl" href={link}>
         {section}
       </a>
     </li>

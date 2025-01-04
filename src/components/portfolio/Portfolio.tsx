@@ -1,12 +1,14 @@
+import ProjectList from "./ProjectList";
 import ProjectItem from "./ProjectItem";
 import StackList from "./StackList";
 import StackItem from "./StackItem";
-import ProjectList from "./ProjectList";
 
 const Portfolio = () => {
   return (
     <section className="flex flex-col justify-center items-center">
-      <h1 className="">Portfolio</h1>
+      <h1 className="p-4 text-3xl" id="portfolio">
+        Portfolio
+      </h1>
       <ProjectList>
         <ProjectItem
           img="/ToDo.png"
@@ -25,7 +27,7 @@ const Portfolio = () => {
           </StackList>
         </ProjectItem>
         <ProjectItem
-          img="/ToDo.png"
+          img="/Weather.png"
           time="Nov 2024 - Dec 2024"
           link="https://conceptbtw-react-weather-app.netlify.app/"
           name="⛅️ Weather"

@@ -1,12 +1,12 @@
 import ProjectList from "./ProjectList";
 import ProjectItem from "./ProjectItem";
-import StackList from "./StackList";
-import StackItem from "./StackItem";
+import StackList from "../stack/StackList";
+import StackItem from "../stack/StackItem";
 
 const Portfolio = () => {
   return (
     <section className="flex flex-col justify-center items-center">
-      <h1 className="p-4 text-3xl" id="portfolio">
+      <h1 className="p-4 text-3xl font-bold" id="portfolio">
         Portfolio
       </h1>
       <ProjectList>

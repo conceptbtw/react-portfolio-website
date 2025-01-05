@@ -18,19 +18,21 @@ const ProjectItem = ({
   children,
 }: ProjectItemProps) => {
   return (
-    <li className="p-2 h-full flex flex-col md:flex-row justify-center items-stretch gap-2 border border-white/10 rounded-3xl">
-      <div className="border border-white/10 rounded-2xl">
+    <li className="p-4 grid md:grid-cols-2 gap-2 border border-white/10 rounded-3xl">
+      <div className="border border-white/10 rounded-xl">
         <a className="" href={link} target="_blank">
           <img
-            className="max-h-64 rounded-2xl aspect-video object-cover"
+            className="rounded-xl aspect-video object-cover"
             src={img}
             alt="Project image"
           />
         </a>
       </div>
       <div className="flex flex-1 flex-col items-start gap-2">
-        <time className="p-2 border border-white/10 rounded-full">{time}</time>
-        <h2 className="text-2xl">
+        <time className="px-4 py-2 border border-white/10 rounded-full text-accent font-bold">
+          {time}
+        </time>
+        <h2 className="text-2xl font-bold hover:text-accent">
           <a className="" href={link} target="_blank">
             {name}
           </a>

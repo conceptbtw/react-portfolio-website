@@ -7,7 +7,7 @@ type NavListProps = {
 const NavList = ({ children }: NavListProps) => {
   return (
     <nav className="max-w-screen-lg text-2xl font-bold">
-      <ul className="flex justify-center items-center gap-8">{children}</ul>
+      <ul className="center gap-8">{children}</ul>
     </nav>
   );
 };

@@ -5,7 +5,7 @@ import StackItem from "../stack/StackItem";
 
 const Portfolio = () => {
   return (
-    <section className="flex flex-col justify-center items-center">
+    <section className="center flex-col">
       <h1 className="p-4 text-3xl font-bold" id="portfolio">
         Portfolio
       </h1>

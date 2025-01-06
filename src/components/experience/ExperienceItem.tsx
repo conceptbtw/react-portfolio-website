@@ -16,12 +16,12 @@ const ExperienceItem = ({
   children,
 }: ExperienceItemProps) => {
   return (
-    <li className="h-full p-4 flex flex-1 flex-col items-start gap-2 border border-white/10 rounded-3xl">
-      <time className="px-4 py-2 border border-white/10 rounded-full text-accent font-bold">
+    <li className="p-4 flex flex-1 flex-col items-start gap-4 border border-white/10 rounded-3xl bg-white/10 shadow backdrop-blur">
+      <time className="px-4 py-2 border border-white/10 rounded-full text-accent font-bold bg-white/10 shadow backdrop-blur">
         {time}
       </time>
       <h2 className="text-2xl font-bold">{name}</h2>
-      <p className="text-accent font-bold">{role}</p>
+      <p className="text-accent text-xl font-bold">{role}</p>
       <div className="flex-1">
         <p className="">{description}</p>
       </div>

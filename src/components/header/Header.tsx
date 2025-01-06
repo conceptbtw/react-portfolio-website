@@ -3,7 +3,7 @@ import NavItem from "./NavItem";
 
 const Header = () => {
   return (
-    <header className="p-4">
+    <header className="w-full sticky top-0 p-4 center bg-white/10 shadow backdrop-blur z-50">
       <NavList>
         <NavItem link="#about" section="About" />
         <NavItem link="#skills" section="Skills" />

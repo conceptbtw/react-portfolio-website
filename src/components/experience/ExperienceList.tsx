@@ -5,7 +5,7 @@ type ExperienceListProps = {
 };
 
 const ExperienceList = ({ children }: ExperienceListProps) => {
-  return <ul className="flex flex-col gap-2">{children}</ul>;
+  return <ul className="flex flex-col gap-4">{children}</ul>;
 };
 
 export default ExperienceList;

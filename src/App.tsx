@@ -1,10 +1,10 @@
 import Header from "./components/header/Header";
 import Main from "./components/main/Main";
-import Footer from "./components/Footer";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
-    <div className="min-h-svh flex flex-col justify-center items-center text-white bg-primary">
+    <div className="min-h-svh center flex-col text-white bg-[url('/bg.svg')] bg-center bg-cover">
       <Header />
       <Main />
       <Footer />

@@ -3,8 +3,8 @@ import SkillItem from "./SkillItem";
 
 const Skills = () => {
   return (
-    <section className="center flex-col">
-      <h1 className="p-4 text-3xl font-bold" id="skills">
+    <section className="pt-16 center flex-col">
+      <h1 className="p-4 text-3xl font-bold scroll-m-16" id="skills">
         Skills
       </h1>
       <div className="w-full grid grid-cols-2 gap-4">

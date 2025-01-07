@@ -5,8 +5,8 @@ import ExperienceList from "./ExperienceList";
 
 const Experience = () => {
   return (
-    <section className="center flex-col">
-      <h1 className="p-4 text-3xl font-bold" id="experience">
+    <section className="pt-16 center flex-col">
+      <h1 className="p-4 text-3xl font-bold scroll-m-16" id="experience">
         Experience
       </h1>
       <ExperienceList>

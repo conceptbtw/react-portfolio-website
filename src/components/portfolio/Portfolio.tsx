@@ -5,8 +5,8 @@ import StackItem from "../stack/StackItem";
 
 const Portfolio = () => {
   return (
-    <section className="center flex-col">
-      <h1 className="p-4 text-3xl font-bold" id="portfolio">
+    <section className="pt-16 center flex-col">
+      <h1 className="p-4 text-3xl font-bold scroll-m-16" id="portfolio">
         Portfolio
       </h1>
       <ProjectList>

@@ -5,9 +5,9 @@ type SocialItemProps = {
 
 const SocialItem = ({ link, img }: SocialItemProps) => {
   return (
-    <li className="size-12 center border border-white/10 outline-2 outline-accent rounded-full bg-white/10 shadow backdrop-blur hover:border-0 hover:outline hover:scale-110 transition-transform">
+    <li className="size-12 hover:mx-1 center border hover:border-0 border-primary/10 hover:outline outline-2 outline-accent rounded-full bg-primary/10 shadow backdrop-blur hover:scale-110 transition-all">
       <a className="" href={link} target="_blank">
-        <img className="p-2" src={img} alt="Social item" />
+        <img className="p-2" src={img} alt="Social logo" />
       </a>
     </li>
   );

@@ -3,13 +3,13 @@ import SkillItem from "./SkillItem";
 
 const Skills = () => {
   return (
-    <section className="pt-16 center flex-col">
-      <h1 className="p-4 text-3xl font-bold scroll-m-16" id="skills">
+    <section className="center flex-col">
+      <h1 className="p-4 text-6xl font-bold scroll-m-[77px]" id="skills">
         Skills
       </h1>
-      <div className="w-full grid grid-cols-2 gap-4">
+      <div className="w-full grid md:grid-cols-2 gap-4">
         <section className="flex flex-col items-center">
-          <h2 className="p-2 text-center text-2xl font-bold">
+          <h2 className="p-2 text-center text-4xl font-bold">
             <span className="text-accent">Hard</span> skills
           </h2>
           <SkillList>
@@ -54,7 +54,7 @@ const Skills = () => {
           </SkillList>
         </section>
         <section className="flex flex-col items-center">
-          <h2 className="p-2 text-center text-2xl font-bold">
+          <h2 className="p-2 text-center text-4xl font-bold">
             <span className="text-accent">Soft</span> skills
           </h2>
           <SkillList>

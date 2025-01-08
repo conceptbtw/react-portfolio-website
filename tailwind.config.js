@@ -6,9 +6,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#100020",
-        secondary: "#400080",
-        accent: "#8000ff",
+        primary: "#200010",
+        secondary: "#800040",
+        accent: "#ff0080",
       },
       fontFamily: {
         sans: ["Montserrat", ...defaultTheme.fontFamily.sans],

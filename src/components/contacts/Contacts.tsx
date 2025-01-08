@@ -3,11 +3,11 @@ import SocialList from "../social/SocialList";
 
 const Contacts = () => {
   return (
-    <section className="pt-16 center flex-col">
-      <h1 className="p-4 text-3xl font-bold scroll-m-16" id="contacts">
+    <section className="pt-10 center flex-col">
+      <h1 className="p-4 text-6xl font-bold scroll-m-[77px]" id="contacts">
         Contacts
       </h1>
-      <div className="p-4 border border-white/10 rounded-3xl bg-white/10 shadow backdrop-blur">
+      <div className="p-4 border border-primary/10 rounded-3xl bg-primary/10 shadow backdrop-blur">
         <SocialList>
           <SocialItem
             link="https://t.me/conceptbtw"

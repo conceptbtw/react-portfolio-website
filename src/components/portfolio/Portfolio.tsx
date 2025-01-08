@@ -5,8 +5,8 @@ import StackItem from "../stack/StackItem";
 
 const Portfolio = () => {
   return (
-    <section className="pt-16 center flex-col">
-      <h1 className="p-4 text-3xl font-bold scroll-m-16" id="portfolio">
+    <section className="pt-10 center flex-col">
+      <h1 className="p-4 text-6xl font-bold scroll-m-[77px]" id="portfolio">
         Portfolio
       </h1>
       <ProjectList>
@@ -18,12 +18,24 @@ const Portfolio = () => {
           description="📝 ToDo"
         >
           <StackList>
-            <StackItem img="https://skillicons.dev/icons?i=html" />
-            <StackItem img="https://skillicons.dev/icons?i=css" />
-            <StackItem img="https://skillicons.dev/icons?i=js" />
-            <StackItem img="https://skillicons.dev/icons?i=react" />
-            <StackItem img="https://skillicons.dev/icons?i=tailwind" />
-            <StackItem img="https://skillicons.dev/icons?i=vite" />
+            <StackItem
+              img="https://skillicons.dev/icons?i=html"
+              title="HTML5"
+            />
+            <StackItem img="https://skillicons.dev/icons?i=css" title="CSS3" />
+            <StackItem
+              img="https://skillicons.dev/icons?i=js"
+              title="JavaScript"
+            />
+            <StackItem
+              img="https://skillicons.dev/icons?i=react"
+              title="React"
+            />
+            <StackItem
+              img="https://skillicons.dev/icons?i=tailwind"
+              title="Tailwind CSS"
+            />
+            <StackItem img="https://skillicons.dev/icons?i=vite" title="Vite" />
           </StackList>
         </ProjectItem>
         <ProjectItem
@@ -34,29 +46,56 @@ const Portfolio = () => {
           description="⛅️ Weather"
         >
           <StackList>
-            <StackItem img="https://skillicons.dev/icons?i=html" />
-            <StackItem img="https://skillicons.dev/icons?i=css" />
-            <StackItem img="https://skillicons.dev/icons?i=js" />
-            <StackItem img="https://skillicons.dev/icons?i=react" />
-            <StackItem img="https://skillicons.dev/icons?i=tailwind" />
-            <StackItem img="https://skillicons.dev/icons?i=vite" />
+            <StackItem
+              img="https://skillicons.dev/icons?i=html"
+              title="HTML5"
+            />
+            <StackItem img="https://skillicons.dev/icons?i=css" title="CSS3" />
+            <StackItem
+              img="https://skillicons.dev/icons?i=js"
+              title="JavaScript"
+            />
+            <StackItem
+              img="https://skillicons.dev/icons?i=react"
+              title="React"
+            />
+            <StackItem
+              img="https://skillicons.dev/icons?i=tailwind"
+              title="Tailwind CSS"
+            />
+            <StackItem img="https://skillicons.dev/icons?i=vite" title="Vite" />
           </StackList>
         </ProjectItem>
         <ProjectItem
           img="/ToDo.png"
           time="Dec 2024 - Present"
           link=""
-          name="💼 Portfolio"
-          description="💼 Portfolio"
+          name="👨‍💻 Portfolio"
+          description="👨‍💻 Portfolio"
         >
           <StackList>
-            <StackItem img="https://skillicons.dev/icons?i=html" />
-            <StackItem img="https://skillicons.dev/icons?i=css" />
-            <StackItem img="https://skillicons.dev/icons?i=js" />
-            <StackItem img="https://skillicons.dev/icons?i=ts" />
-            <StackItem img="https://skillicons.dev/icons?i=react" />
-            <StackItem img="https://skillicons.dev/icons?i=tailwind" />
-            <StackItem img="https://skillicons.dev/icons?i=vite" />
+            <StackItem
+              img="https://skillicons.dev/icons?i=html"
+              title="HTML5"
+            />
+            <StackItem img="https://skillicons.dev/icons?i=css" title="CSS3" />
+            <StackItem
+              img="https://skillicons.dev/icons?i=js"
+              title="JavaScript"
+            />
+            <StackItem
+              img="https://skillicons.dev/icons?i=ts"
+              title="TypeScript"
+            />
+            <StackItem
+              img="https://skillicons.dev/icons?i=react"
+              title="React"
+            />
+            <StackItem
+              img="https://skillicons.dev/icons?i=tailwind"
+              title="Tailwind CSS"
+            />
+            <StackItem img="https://skillicons.dev/icons?i=vite" title="Vite" />
           </StackList>
         </ProjectItem>
       </ProjectList>

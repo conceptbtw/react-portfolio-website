@@ -19,10 +19,10 @@ const ProjectItem = ({
 }: ProjectItemProps) => {
   return (
     <li className="p-4 grid md:grid-cols-2 gap-4 border border-primary/10 rounded-3xl bg-primary/10 shadow backdrop-blur">
-      <div className="center">
-        <a className="" href={link} target="_blank">
+      <div className="center border border-primary/10 rounded-xl shadow">
+        <a href={link} target="_blank">
           <img
-            className="border border-primary/10 rounded-xl aspect-video object-cover"
+            className="rounded-xl aspect-video object-top object-cover"
             src={img}
             alt="Project image"
           />
@@ -33,14 +33,14 @@ const ProjectItem = ({
           {time}
         </time>
         <h2 className="text-2xl font-bold hover:text-accent">
-          <a className="" href={link} target="_blank">
+          <a href={link} target="_blank">
             {name}
           </a>
         </h2>
         <div className="flex-1">
-          <p className="">{description}</p>
+          <p className="text-justify">{description}</p>
         </div>
-        <div className="">{children}</div>
+        <div>{children}</div>
       </div>
     </li>
   );

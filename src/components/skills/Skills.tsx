@@ -51,6 +51,15 @@ const Skills = () => {
               skill="Bootstrap"
             />
             <SkillItem img="https://skillicons.dev/icons?i=vite" skill="Vite" />
+            <SkillItem img="https://skillicons.dev/icons?i=git" skill="Git" />
+            <SkillItem
+              img="https://skillicons.dev/icons?i=github"
+              skill="GitHub"
+            />
+            <SkillItem
+              img="https://upload.wikimedia.org/wikipedia/commons/0/0b/English_language.svg"
+              skill="B2 (Upper intermediate) English"
+            />
           </SkillList>
         </section>
         <section className="flex flex-col items-center">

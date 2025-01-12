@@ -15,7 +15,7 @@ const Portfolio = () => {
           time="Nov 2024 - Dec 2024"
           link="https://conceptbtw-react-todo-app.netlify.app/"
           name="📝 ToDo"
-          description="📝 ToDo"
+          description="A ToDo app built with HTML5, CSS3, JavaScript, React, Tailwind CSS, and Vite. You can add, mark as completed, edit, and delete tasks. The app is responsive and performs quickly with React and Vite."
         >
           <StackList>
             <StackItem
@@ -43,7 +43,7 @@ const Portfolio = () => {
           time="Nov 2024 - Dec 2024"
           link="https://conceptbtw-react-weather-app.netlify.app/"
           name="⛅️ Weather"
-          description="⛅️ Weather"
+          description="A responsive Weather app built with HTML5, CSS3, JavaScript, React, Tailwind CSS, and Vite. It utilizes the OpenWeather API to display real-time weather data and a 7-day forecast. Features include temperature, humidity, wind speed, and sky conditions with a city-based search."
         >
           <StackList>
             <StackItem
@@ -69,7 +69,7 @@ const Portfolio = () => {
         <ProjectItem
           img="/ToDo.png"
           time="Dec 2024 - Present"
-          link=""
+          link="https://conceptbtw.netlify.app/"
           name="👨‍💻 Portfolio"
           description="👨‍💻 Portfolio"
         >

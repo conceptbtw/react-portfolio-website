@@ -5,7 +5,7 @@ type SkillListProps = {
 };
 
 const SkillList = ({ children }: SkillListProps) => {
-  return <ul className="w-full flex flex-col gap-4">{children}</ul>;
+  return <ul className="w-full center flex-wrap gap-4">{children}</ul>;
 };
 
 export default SkillList;

@@ -22,10 +22,8 @@ const ExperienceItem = ({
       </time>
       <h2 className="text-2xl font-bold">{name}</h2>
       <p className="text-accent text-xl font-bold">{role}</p>
-      <div className="flex-1">
-        <p className="">{description}</p>
-      </div>
-      <div className="">{children}</div>
+      <p className="text-justify">{description}</p>
+      <div>{children}</div>
     </li>
   );
 };

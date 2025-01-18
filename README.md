@@ -1,18 +1,16 @@
-<h1 align="center">👨‍💻 Portfolio</h1>
+# 👨‍💻 Portfolio
 
 ###
 
-<h2>⚛️ Frontend</h2>
+## ⚛️ Frontend
 
 ###
 
-<div>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,vite" height="48" alt="logos"  />
-</div>
+![Frontend](https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,vite)
 
 ###
 
-<h2>✍️ Author</h2>
+## ✍️ Author
 
 ###
 
@@ -20,7 +18,7 @@
 
 ###
 
-<h2>📝 License</h2>
+## 📝 License
 
 ###
 

@@ -11,18 +11,9 @@ const Contacts = () => {
       <div className="w-full p-4 grid md:grid-cols-2 gap-4 border border-primary/10 rounded-3xl bg-primary/10 shadow backdrop-blur">
         <ContactForm />
         <SocialList>
-          <SocialItem
-            link="https://t.me/conceptbtw"
-            img="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png"
-          />
-          <SocialItem
-            link="https://github.com/conceptbtw"
-            img="https://skillicons.dev/icons?i=github"
-          />
-          <SocialItem
-            link="https://www.linkedin.com/in/illiamovchko/"
-            img="https://skillicons.dev/icons?i=linkedin"
-          />
+          <SocialItem link="https://t.me/conceptbtw" img="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png" />
+          <SocialItem link="https://github.com/conceptbtw" img="https://skillicons.dev/icons?i=github" />
+          <SocialItem link="https://www.linkedin.com/in/illiamovchko/" img="https://skillicons.dev/icons?i=linkedin" />
         </SocialList>
       </div>
     </section>

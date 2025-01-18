@@ -17,23 +17,11 @@ const Experience = () => {
           description="Optimized and improved responsive user interfaces, enhancing user interaction with the platform. Identified and resolved bugs to improve stability and performance."
         >
           <StackList>
-            <StackItem
-              img="https://skillicons.dev/icons?i=html"
-              title="HTML5"
-            />
+            <StackItem img="https://skillicons.dev/icons?i=html" title="HTML5" />
             <StackItem img="https://skillicons.dev/icons?i=css" title="CSS3" />
-            <StackItem
-              img="https://skillicons.dev/icons?i=js"
-              title="JavaScript"
-            />
-            <StackItem
-              img="https://skillicons.dev/icons?i=react"
-              title="React"
-            />
-            <StackItem
-              img="https://skillicons.dev/icons?i=sass"
-              title="SASS (SCSS)"
-            />
+            <StackItem img="https://skillicons.dev/icons?i=js" title="JavaScript" />
+            <StackItem img="https://skillicons.dev/icons?i=react" title="React" />
+            <StackItem img="https://skillicons.dev/icons?i=sass" title="SASS (SCSS)" />
           </StackList>
         </ExperienceItem>
       </ExperienceList>

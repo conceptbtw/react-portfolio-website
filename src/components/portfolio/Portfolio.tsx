@@ -62,7 +62,7 @@ const Portfolio = () => {
             <StackItem img={`${skillicons}js`} title="JavaScript" />
             <StackItem img={`${skillicons}ts`} title="TypeScript" />
             <StackItem img={`${skillicons}react`} title="React" />
-            <StackItem img={`${skillicons}mui`} title="MUI" />
+            <StackItem img={`${skillicons}mui`} title="Material UI" />
             <StackItem img={`${skillicons}vite`} title="Vite" />
           </StackList>
         </ProjectItem>

@@ -1,13 +1,14 @@
 import { ReactNode } from "react";
 
 type NavListProps = {
+  isMenuOpen: boolean;
   children: ReactNode;
 };
 
-const NavList = ({ children }: NavListProps) => {
+const NavList = ({ isMenuOpen, children }: NavListProps) => {
   return (
-    <nav className="max-w-screen-lg text-2xl font-bold">
-      <ul className="center gap-8">{children}</ul>
+    <nav className={`max-w-screen-lg ${isMenuOpen ? "block" : "hidden"} md:block`}>
+      <ul className="center flex-col md:flex-row gap-8">{children}</ul>
     </nav>
   );
 };

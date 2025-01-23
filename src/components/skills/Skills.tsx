@@ -3,6 +3,7 @@ import SkillItem from "./SkillItem";
 
 const Skills = () => {
   const skillicons = "https://skillicons.dev/icons?i=";
+  const emojiicons = "https://em-content.zobj.net/source/microsoft-teams/363/";
 
   return (
     <section className="center flex-col">
@@ -25,7 +26,7 @@ const Skills = () => {
             <SkillItem img={`${skillicons}sass`} skill="SASS (SCSS)" />
             <SkillItem img={`${skillicons}tailwind`} skill="Tailwind CSS" />
             <SkillItem img={`${skillicons}bootstrap`} skill="Bootstrap" />
-            <SkillItem img={`${skillicons}mui`} skill="MUI" />
+            <SkillItem img={`${skillicons}mui`} skill="Material UI" />
             <SkillItem img={`${skillicons}vite`} skill="Vite" />
             <SkillItem img={`${skillicons}git`} skill="Git" />
             <SkillItem img={`${skillicons}github`} skill="GitHub" />
@@ -37,9 +38,13 @@ const Skills = () => {
             <span className="text-accent">Soft</span> skills
           </h2>
           <SkillList>
-            <SkillItem img="https://em-content.zobj.net/source/microsoft-teams/363/handshake_1f91d.png" skill="Teamwork" />
-            <SkillItem img="https://em-content.zobj.net/source/microsoft-teams/363/stopwatch_23f1-fe0f.png" skill="Time management" />
-            <SkillItem img="https://em-content.zobj.net/source/microsoft-teams/363/artist-palette_1f3a8.png" skill="Creativity" />
+            <SkillItem img={`${emojiicons}speaking-head_1f5e3-fe0f.png`} skill="Communication" />
+            <SkillItem img={`${emojiicons}handshake_1f91d.png`} skill="Teamwork" />
+            <SkillItem img={`${emojiicons}stopwatch_23f1-fe0f.png`} skill="Time management" />
+            <SkillItem img={`${emojiicons}thinking-face_1f914.png`} skill="Critical Thinking" />
+            <SkillItem img={`${emojiicons}person-juggling_1f939.png`} skill="Adaptability" />
+            <SkillItem img={`${emojiicons}person-in-lotus-position_1f9d8.png`} skill="Patience" />
+            <SkillItem img={`${emojiicons}artist-palette_1f3a8.png`} skill="Creativity" />
           </SkillList>
         </section>
       </div>

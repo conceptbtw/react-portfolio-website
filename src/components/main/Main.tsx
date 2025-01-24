@@ -6,7 +6,7 @@ import Contacts from "../contacts/Contacts";
 
 const Main = () => {
   return (
-    <main className="max-w-screen-xl p-4">
+    <main className="max-w-screen-xl p-4 md:p-5 center flex-col gap-8 md:gap-10">
       <About />
       <Skills />
       <Portfolio />

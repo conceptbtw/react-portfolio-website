@@ -4,11 +4,11 @@ import ContactForm from "./ContactForm";
 
 const Contacts = () => {
   return (
-    <section className="pt-10 center flex-col">
-      <h1 className="p-4 text-6xl font-bold scroll-m-[77px]" id="contacts">
+    <section className="w-full center flex-col">
+      <h1 className="p-4 md:p-5 text-4xl md:text-6xl font-bold scroll-m-[77px]" id="contacts">
         Contacts
       </h1>
-      <div className="w-full p-4 grid md:grid-cols-2 gap-4 border border-primary/10 rounded-3xl bg-primary/10 shadow backdrop-blur">
+      <div className="w-full p-4 md:p-5 grid md:grid-cols-2 gap-4 md:gap-5 border border-primary/10 rounded-3xl bg-primary/10 shadow backdrop-blur">
         <ContactForm />
         <SocialList>
           <SocialItem link="https://t.me/conceptbtw" img="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png" />

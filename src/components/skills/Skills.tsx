@@ -7,10 +7,10 @@ const Skills = () => {
 
   return (
     <section className="center flex-col">
-      <h1 className="p-4 text-6xl font-bold scroll-m-[77px]" id="skills">
+      <h1 className="p-4 md:p-5 text-4xl md:text-6xl font-bold scroll-m-[77px]" id="skills">
         Skills
       </h1>
-      <div className="w-full grid md:grid-cols-2 gap-4">
+      <div className="w-full grid md:grid-cols-2 gap-4 md:gap-5">
         <section className="flex flex-col items-center">
           <h2 className="p-2 text-center text-4xl font-bold">
             <span className="text-accent">Hard</span> skills
@@ -30,7 +30,7 @@ const Skills = () => {
             <SkillItem img={`${skillicons}vite`} skill="Vite" />
             <SkillItem img={`${skillicons}git`} skill="Git" />
             <SkillItem img={`${skillicons}github`} skill="GitHub" />
-            <SkillItem img="https://flagcdn.com/us.svg" skill="B2 (Upper intermediate) English" />
+            <SkillItem img="https://flagcdn.com/us.svg" skill="B2 English" />
           </SkillList>
         </section>
         <section className="flex flex-col items-center">

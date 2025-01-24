@@ -7,8 +7,8 @@ const Portfolio = () => {
   const skillicons = "https://skillicons.dev/icons?i=";
 
   return (
-    <section className="pt-10 center flex-col">
-      <h1 className="p-4 text-6xl font-bold scroll-m-[77px]" id="portfolio">
+    <section className="center flex-col">
+      <h1 className="p-4 md:p-5 text-4xl md:text-6xl font-bold scroll-m-[77px]" id="portfolio">
         Portfolio
       </h1>
       <ProjectList>

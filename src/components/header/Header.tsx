@@ -10,10 +10,12 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full sticky top-0 p-4 center flex-col gap-8 border-b border-primary/10 text-2xl font-bold bg-primary/10 shadow backdrop-blur z-50">
-      <button className="md:hidden" onClick={toggleMenu} aria-label="Toggle Menu">
-        Menu
-      </button>
+    <header className="w-full sticky top-0 p-4 md:p-5 center flex-col gap-8 md:gap-10 border-b border-primary/10 md:text-2xl font-bold bg-primary/10 shadow backdrop-blur z-50">
+      <div className="w-full md:hidden center">
+        <button className="p-1 border-y-2 border-transparent hover:border-b-accent" onClick={toggleMenu} aria-label="Toggle Menu">
+          Menu
+        </button>
+      </div>
       <NavList isMenuOpen={isMenuOpen}>
         <NavItem link="#about" section="About" />
         <NavItem link="#skills" section="Skills" />

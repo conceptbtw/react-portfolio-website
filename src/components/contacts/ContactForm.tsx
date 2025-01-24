@@ -2,7 +2,7 @@ const ContactForm = () => {
   const inputStyles = "px-4 py-2 placeholder:text-accent/10 border focus:border-transparent border-primary/10 focus:outline outline-2 outline-accent rounded-xl bg-primary/10 shadow backdrop-blur";
 
   return (
-    <form className="flex flex-col gap-4">
+    <form className="flex flex-col gap-4 md:gap-5">
       <label className="flex flex-col">
         Name:
         <input className={inputStyles} type="text" id="name" name="name" placeholder="John Doe" required />
